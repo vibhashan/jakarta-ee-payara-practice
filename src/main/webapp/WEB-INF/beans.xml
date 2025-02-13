@@ -1,0 +1,6 @@
+<beans>
+	<interceptors>
+		<class>org.vibhashana.jakarta.hello.interceptors.TimedInterceptor
+		</class>
+	</interceptors>
+</beans>
