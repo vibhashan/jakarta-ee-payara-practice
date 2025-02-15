@@ -24,6 +24,7 @@
 		<compiler-plugin.version>3.13.0</compiler-plugin.version>
 		<war-plugin.version>3.4.0</war-plugin.version>
 		<payara-micro-plugin.version>2.4</payara-micro-plugin.version>
+		<app-name>sample</app-name>
 	</properties>
 
 	<dependencies>
@@ -57,7 +58,7 @@
 	</dependencies>
 
 	<build>
-		<finalName>sample</finalName>
+		<finalName>${app-name}</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
@@ -95,6 +96,7 @@
 					<contextRoot>/</contextRoot>
 				</configuration>
 			</plugin>
+			
 		</plugins>
 	</build>
 </project>
