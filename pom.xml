@@ -55,6 +55,13 @@
 			<artifactId>jakarta.validation-api</artifactId>
 			<version>3.1.1</version>
 		</dependency>
+
+		<dependency>
+			<groupId>org.primefaces</groupId>
+			<artifactId>primefaces</artifactId>
+			<version>14.0.0</version>
+			<classifier>jakarta</classifier>
+		</dependency>
 	</dependencies>
 
 	<build>
@@ -96,7 +103,7 @@
 					<contextRoot>/</contextRoot>
 				</configuration>
 			</plugin>
-			
+
 		</plugins>
 	</build>
 </project>
